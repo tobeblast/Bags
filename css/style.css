@@ -74,5 +74,39 @@ button{
   ul{
     margin-left: 0;
   }
+
+  .name-div {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .name{
+    margin-bottom: 5%;
+  }
 }
-@media(max-width:500px){}
+
+
+@media(max-width:500px){
+  .name-div{
+    flex-direction: column;
+  }
+
+  .name h2{
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .name p{
+    text-align: center;
+    width: 100%;
+  }
+
+  .anchor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+
+}
