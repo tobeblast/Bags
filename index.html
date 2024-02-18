@@ -192,8 +192,8 @@
         </div>
         <div class="container">
           <!-- Hand bag -->
-          <div class="d-flex hand-bag gap-5 mt-5">
-            <div class="text">
+          <div class="d-flex hand-bag gap-5 mt-lg-5">
+            <div class="text w-50">
               <h5>
                 Comfortable hand-bags for event and shopping available in
                 different sizes and colors
@@ -202,23 +202,23 @@
                 <button class="w-25">See more</button>
               </a>
             </div>
-            <div class="">
+            <div class="img w-50">
               <a href="./explore.html">
-                <img src="./images/handbag4.jpg" alt="" />
+                <img src="./images/handbag4.jpg" alt="" class="hand" />
               </a>
             </div>
           </div>
 
           <!-- School bag -->
           <div class="d-flex school mt-5 gap-5">
-            <div class="w-50">
-              <img src="./images/schoolbag4.jpg" alt="" width="100%" />
-            </div>
-            <div class="text">
+            <div class="text w-50">
               <h5>Quality school bag with high durability</h5>
               <a href="./explore.html">
                 <button class="w-25">See more</button>
               </a>
+            </div>
+            <div class="w-50 img">
+              <img src="./images/schoolbag4.jpg" alt="" width="100%" />
             </div>
           </div>
 
@@ -240,14 +240,14 @@
 
           <!-- Traveling Bag -->
           <div class="d-flex travel mt-5 gap-5">
-            <div class="w-50">
-              <img src="./images/urgent.jpg" alt="" width="100%" />
-            </div>
             <div class="w-50 text">
               <h5>Quality traveling bags for your various journey and trips</h5>
               <a href="./explore.html">
                 <button class="w-25">See more</button>
               </a>
+            </div>
+            <div class="w-50 img">
+              <img src="./images/urgent.jpg" alt="" width="100%" />
             </div>
           </div>
 
@@ -262,16 +262,13 @@
                 <button class="w-25">See more</button>
               </a>
             </div>
-            <div class="w-50">
-              <img src="./images/purse3.jpg" alt="" />
+            <div class="w-50 img">
+              <img src="./images/purse3.jpg" alt="" width="100%" />
             </div>
           </div>
 
           <!-- Set -->
           <div class="d-flex set mt-5 gap-5">
-            <div class="w-50">
-              <img src="./images/set.webp" alt="" width="100%" />
-            </div>
             <div class="text w-50">
               <h5>
                 Suitable set of box for packing your clothe and other items for
@@ -280,6 +277,9 @@
               <a href="./explore.html">
                 <button class="w-25">See more</button>
               </a>
+            </div>
+            <div class="w-50">
+              <img src="./images/set.webp" alt="" width="100%" />
             </div>
           </div>
 
@@ -294,13 +294,13 @@
                 <button class="w-25">See more</button>
               </a>
             </div>
-            <div class="w-50">
+            <div class="w-50 img">
               <img src="./images/children2.jpg" alt="" width="100%" />
             </div>
           </div>
 
           <!-- Arrow -->
-          <div class="d-flex justify-content-between mt-5">
+          <div class="d-flex justify-content-between mt-2 mb-5">
             <div class="w-50"></div>
             <div class="d-flex gap-3">
               <div class="">
@@ -318,7 +318,88 @@
           </div>
         </div>
       </main>
-      <footer id="footer"></footer>
+      <footer id="footer" class="pt-5 pb-3">
+        <div class="container d-flex justify-content-around text-white foot">
+          <div class="">
+            <a href=""></a>
+            <h3>Obum</h3>
+            <p class="mt-4">Social Media</p>
+            <div class="d-flex gap-3">
+              <img src="./images/facebook.svg" alt="" />
+              <img src="./images/Twitter.svg" alt="" />
+              <img src="./images/instragram.svg" alt="" />
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="./order.html" class="text-decoration-none text-white">
+              <h5>PLACE AN ORDER</h5>
+            </a>
+            <p>Product</p>
+            <p>Overview</p>
+            <div class="d-flex">
+              <div class="w-50">
+                <img src="./images/Group.svg" alt="" width="100%" />
+              </div>
+              <div class="w-50">
+                <p>0</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="#" class="text-decoration-none text-white">
+              <h5>COMPANY</h5>
+            </a>
+            <p>About Us</p>
+            <p>Pricing</p>
+            <div class="d-flex">
+              <div class="w-50">
+                <img src="./images/whatsapp.svg" alt="" width="100%" />
+              </div>
+              <div class="w-50">
+                <p>09068311412</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <h5>CONTACT US</h5>
+
+            <!-- Form -->
+            <form
+              action="https://formsubmit.co/tobeblast06@gmail.com"
+              method="POST"
+            >
+              <div data-aos="fade-up" data-aos-duration="2000" class="contact">
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="Name"
+                  required
+                  class="text-white d-block w-100"
+                />
+
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  required
+                  class="text-white d-block w-100"
+                />
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  class="text-white d-block w-100"
+                  placeholder="Message"
+                ></textarea>
+
+                <div class="btn">
+                  <button type="submit">SEND MESSAGE</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
     </section>
     <script src="./js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -362,6 +443,10 @@
           },
         },
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
