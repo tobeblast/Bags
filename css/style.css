@@ -100,6 +100,16 @@ textarea {
   margin-bottom: 10px !important;
 }
 
+.icon{
+  margin-left: -15px;
+  margin-top: -10px;
+}
+
+.phone{
+  margin-left: -50px;
+  margin-top: -2px;
+}
+
 
 
 @media(max-width:768px){
@@ -122,7 +132,7 @@ textarea {
   }
 
   .school{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -132,7 +142,7 @@ textarea {
   }
 
   .travel{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -142,7 +152,7 @@ textarea {
   }
 
   .set{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -155,10 +165,6 @@ textarea {
     width: 100%!important;
   }
 
-  .hand{
-    margin-left: 45px;
-  }
-
   .text{
     width: 100% !important;
     text-align: center;
@@ -167,6 +173,10 @@ textarea {
 
 
 @media(max-width:500px){
+
+  section{
+    width: 100%;
+  }
   .name-div{
     flex-direction: column;
   }
@@ -186,6 +196,24 @@ textarea {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+  }
+
+  .text button{
+    width: 100%!important;
+  }
+
+  .hand {
+    margin-left: 0!important;
+  }
+
+  .see{
+    width: 30%;
+  }
+
+  .foot{
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
   }
 
 
