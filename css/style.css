@@ -198,6 +198,10 @@ textarea {
     margin-bottom: 20px;
   }
 
+  .product h3{
+    text-align: center;
+  }
+
   .text button{
     width: 100%!important;
   }
@@ -206,8 +210,8 @@ textarea {
     margin-left: 0!important;
   }
 
-  .see{
-    width: 30%;
+  .are{
+    width: 25%;
   }
 
   .foot{
