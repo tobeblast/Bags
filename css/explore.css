@@ -3,3 +3,63 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.color {
+  background-color: rgb(194, 239, 212);
+  border-radius: 0 0 70px 0;
+  margin-bottom: 5%;
+}
+
+ul {
+  margin-left: 35%;
+}
+
+button {
+  border: 2px solid black;
+  padding: 7px;
+  border-radius: 8px!important;
+  background-color: rgb(194, 239, 212);
+}
+
+.various h3{
+  color: rgb(34, 79, 52);
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.hand-div img{
+  /* scale: 1.1; */
+}
+
+footer {
+  background-color: rgb(34, 79, 52);
+}
+
+.foot h3 {
+  font-weight: 700;
+}
+
+.contact input,
+textarea {
+  border: 0px !important;
+  outline: 0px !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid white !important;
+  padding-bottom: 3px !important;
+  margin-bottom: 10px !important;
+}
+
+.icon {
+  margin-left: -15px;
+  margin-top: -10px;
+}
+
+.phone {
+  margin-left: -50px;
+  margin-top: -2px;
+}
