@@ -133,8 +133,13 @@ main .carry .register {
   cursor: pointer;
 }
 
+.modal-content{
+  background-image: linear-gradient(to right, skyblue, rgb(129, 91, 118));
+}
 
-
+.mod{
+  text-align: center;
+}
 
 .lojo {
   padding: 40px
@@ -173,6 +178,16 @@ textarea {
   ul{
     margin-left: 0;
   }
+
+  main{
+    height: 130dvh;
+  }
+
+  .carry{
+    width: 80%;
+    padding-bottom: 8px;
+  }
+
 }
 
 
@@ -183,7 +198,7 @@ textarea {
     width: 100%;
   }
 
-  .carry {
+  main {
     height: auto;
     background-image: linear-gradient(to right, rgb(50, 82, 95), rgb(187, 19, 139));
   }
