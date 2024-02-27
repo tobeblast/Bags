@@ -32,10 +32,6 @@ button {
   text-align: center;
 }
 
-.hand-div img{
-  /* scale: 1.1; */
-}
-
 footer {
   background-color: rgb(34, 79, 52);
 }
@@ -63,3 +59,41 @@ textarea {
   margin-left: -50px;
   margin-top: -2px;
 }
+
+
+@media(max-width:768px){
+  ul{
+    margin-left: 0;
+  }
+
+  .school3{
+    margin-top: 3rem;
+  }
+
+  .travel6{
+    margin-top: 1rem;
+  }
+}
+
+
+@media(max-width:500px){
+
+  section{
+    width: 100%!important;
+    overflow: hidden;
+  }
+
+  .various h3{
+    font-size: 28px;
+  }
+  .mobile{
+    margin-top: 10px!important;
+  }
+
+  .foot {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px!important;
+  }
+}
+
